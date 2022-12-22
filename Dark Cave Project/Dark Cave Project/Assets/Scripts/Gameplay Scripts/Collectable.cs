@@ -32,41 +32,4 @@ public class Collectable : MonoBehaviour
 
     }
 
-
-
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

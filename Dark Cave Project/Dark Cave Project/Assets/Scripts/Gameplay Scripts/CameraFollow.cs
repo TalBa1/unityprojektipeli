@@ -34,36 +34,4 @@ public class CameraFollow : MonoBehaviour
     }
 
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

@@ -14,38 +14,4 @@ public static class TagManager
     public static string ENEMY_TAG = "Enemy";
     public static string GOAL_TAG = "Goal";
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

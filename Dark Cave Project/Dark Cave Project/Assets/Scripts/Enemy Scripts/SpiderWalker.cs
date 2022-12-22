@@ -73,7 +73,7 @@ public class SpiderWalker : MonoBehaviour
         tempPos = transform.position;
         tempScale = transform.localScale;
 
-        //spriteRen.flipX = moveLeft;
+        
 
         if (moveLeft)
         {
@@ -120,37 +120,4 @@ public class SpiderWalker : MonoBehaviour
 
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

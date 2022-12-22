@@ -94,6 +94,7 @@ public class GameplayController : MonoBehaviour
 
     }
 
+
     public void IncreaseAir(float air)
     {
         airValue += air;
@@ -110,6 +111,7 @@ public class GameplayController : MonoBehaviour
         if (timeValue > timeMax)
             timeValue = timeMax;
     }
+
 
     public void GameOver(bool win)
     {
@@ -130,56 +132,14 @@ public class GameplayController : MonoBehaviour
 
     }
 
+
+
+
+
     void RestartLevel()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene
             (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

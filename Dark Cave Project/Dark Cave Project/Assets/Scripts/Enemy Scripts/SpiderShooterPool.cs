@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
 public class SpiderShooterPool : MonoBehaviour
 {
     [SerializeField]
@@ -54,16 +57,8 @@ public class SpiderShooterPool : MonoBehaviour
 
     void Shoot()
     {
-        //for (int i = 0; i < bullets.Count; i++)
-        //{
-        //    if (!bullets[i].activeInHierarchy)
-        //    {
-        //        bullets[i].SetActive(true);
-        //        bullets[i].transform.position = bulletSpawnPos.position;
-        //        break;
-        //    }
-        //}
-
+       
+       
         foreach (GameObject bul in bullets)
         {
             if (!bul.activeInHierarchy)
@@ -76,26 +71,4 @@ public class SpiderShooterPool : MonoBehaviour
 
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

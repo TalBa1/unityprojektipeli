@@ -36,33 +36,4 @@ public class SoundController : MonoBehaviour
         AudioSource.PlayClipAtPoint(collectableSound, transform.position);
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

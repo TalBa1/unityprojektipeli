@@ -58,6 +58,8 @@ public class SpiderJumper : MonoBehaviour
         }
     }
 
+
+
     void HandleAnimations()
     {
         if (myBody.velocity.magnitude == 0)
@@ -66,34 +68,4 @@ public class SpiderJumper : MonoBehaviour
             anim.SetBool(TagManager.JUMP_ANIMATION_PARAMETER, true);
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

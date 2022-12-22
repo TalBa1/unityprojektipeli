@@ -34,7 +34,7 @@ public class PlayerWalk : MonoBehaviour
 
     private void Update()
     {
-        //HandleMovementWithTransform();
+        
 
         HandlePlayerAnimations();
 
@@ -74,7 +74,6 @@ public class PlayerWalk : MonoBehaviour
 
             myBody.velocity = new Vector2(-moveSpeed, myBody.velocity.y);
 
-            //myBody.AddForce(new Vector2(-moveSpeed, 0f), ForceMode2D.Impulse);
             
         }
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
@@ -82,7 +81,6 @@ public class PlayerWalk : MonoBehaviour
 
             myBody.velocity = new Vector2(moveSpeed, myBody.velocity.y);
 
-            //myBody.AddForce(new Vector2(moveSpeed, 0f), ForceMode2D.Impulse);
             
         }
         else
@@ -105,10 +103,6 @@ public class PlayerWalk : MonoBehaviour
     bool IsGrounded()
     {
 
-        //Debug.DrawRay(groundCheckPos.position, Vector2.down * 0.1f, Color.red);
-
-        //return Physics2D.Raycast(groundCheckPos.position, Vector2.down, 0.1f,
-        //    groundLayer);
 
         return Physics2D.BoxCast(boxCol2D.bounds.center,
             boxCol2D.bounds.size, 0f, Vector2.down, 0.1f, groundLayer);
@@ -153,31 +147,4 @@ public class PlayerWalk : MonoBehaviour
             GameplayController.instance.GameOver(false);
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

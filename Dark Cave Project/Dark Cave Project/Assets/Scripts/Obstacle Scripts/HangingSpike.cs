@@ -53,35 +53,4 @@ public class HangingSpike : MonoBehaviour
     }
 
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

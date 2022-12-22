@@ -23,4 +23,4 @@ public class Diamond : MonoBehaviour
     }
 
 
-} // class
+}

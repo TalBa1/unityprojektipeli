@@ -35,33 +35,4 @@ public class PlayerAnimation : MonoBehaviour
 
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 

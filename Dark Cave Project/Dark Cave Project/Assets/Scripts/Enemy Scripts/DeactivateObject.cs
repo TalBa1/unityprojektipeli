@@ -24,7 +24,9 @@ public class DeactivateObject : MonoBehaviour
         {
             CancelInvoke("DeactivateGameObject");
             gameObject.SetActive(false);
-            //Destroy(gameObject);
+
+
+
         }
     }
 

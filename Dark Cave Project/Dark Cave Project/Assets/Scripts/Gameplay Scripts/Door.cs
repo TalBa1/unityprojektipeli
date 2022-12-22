@@ -49,32 +49,5 @@ public class Door : MonoBehaviour
         }
     }
 
-} // class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 
 
